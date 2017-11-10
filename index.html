@@ -1,0 +1,65 @@
+<!DOCTYPE=html>
+<html>
+<head>
+	<title>Crystal Game</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme|Cinzel" rel="stylesheet">
+</head>
+<body>
+
+	<header>Crystals Collector!
+	</header>
+	<section class='main'>
+		<p>You will be given a random number at the start of the game.</p>
+		<br />
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<br />
+		<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+		<br />
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<br />
+		<p>Each time when the game starts, the game will change the values of each crystal and set a new goal.</p>
+	</section>
+	
+	<div class='container'>
+		<div class='goal'>
+		</div>
+		<div class='winsAndLosses'>
+			<div id='winTotal'></div>
+			<div id='lossTotal'></div>
+		</div>
+	
+		<div>
+			<button class='gem' id='redGem' value=''>
+				<img src="./assets/images/red.jpg">
+			</button>
+			<button class='gem' id='blueGem' value=''>
+				<img src="./assets/images/blue.jpg">
+			</button>
+			<button class='gem' id='yellowGem' value=''>
+				<img src="./assets/images/yellow.jpg">
+			</button>
+			<button class='gem' id='greenGem' value=''>
+				<img src="./assets/images/green.jpg">		
+			</button>
+		</div>
+
+		<panel class="scoreBox">
+			<div class='scoreTotal'>
+			Your total score is:
+			</div>
+			<div class='scoreCounter'>
+			</div>
+		</panel>
+	</div>
+
+	<script
+  		src="https://code.jquery.com/jquery-3.2.1.js"
+  		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  		crossorigin="anonymous">
+  	</script>
+  	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+</body>
+</html>
