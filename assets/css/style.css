@@ -3,8 +3,8 @@
 }
 
 img {
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 99%;
+	max-height: 99%;
 }
 
 body{
@@ -21,8 +21,8 @@ header{
 	border: solid 2px white;
 	background-color: #A93226;
 	color: white;
-	height: 10%;
-	width: 25%;
+	height: 80px;
+	width: 300px;
 	font-size: 24px;
 	text-align: center;
 	padding-top: 15px;
@@ -96,6 +96,7 @@ header{
 
 #redGem{
 clear: both;
+margin-left: 35px;
 }
 
 .gem{
@@ -103,12 +104,12 @@ float: left;
 height: 75px;
 width: 75px;
 background-color: white;
-border: solid 1px white;
-margin: 5px;
+border: solid 1px black;
+margin: 25px 25px;
 }
 
 .scoreBox{
-	width: 350px;
+	width: 500px;
 	height: 80px;
 	float: left;
 }
@@ -116,7 +117,7 @@ margin: 5px;
 .scoreTotal{
 	clear: both;
 	background-color: #2BA296;
-	width: 350px;
+	width: 500px;
 	height: 30px;
 	margin: 10px;
 	color: white;
@@ -125,10 +126,11 @@ margin: 5px;
 
 .scoreCounter{
 	background-color: #2BA296;
-	width: 350px;
+	width: 500px;
 	height: 30px;
 	margin: 10px;
 	color: white;
+	padding: 5px;
 }
 
 
